@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Layouts</title>
+
+  <!-- style css link -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- fontawesome css link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <!-- header section start -->
+
+  <div class="headerX">
+
+    <div class="header-container">
+
+      <div class="logo">
+
+        <h2>Smart Ent&trade;</h2>
+
+
+      </div>
+
+      <div class="nav-links">
+
+        <i href="#" class="perma fa-solid fa-home">
+          <a href="#">Home</a>
+        </i>
+
+        <i href="about.html" class="fa-solid fa-info-circle">
+          <a href="about.html">About</a>
+        </i>
+
+        <i href="services.html" class="fa-solid fa-cogs">
+          <a href="services.html">Services</a>
+        </i>
+
+        <i href="contacts.html" class="fa-solid fa-envelope">
+          <a href="contacts.html">Contacts</a>
+        </i>
+
+        <script>
+          const icons = document.querySelectorAll('i[href]');
+
+          icons.forEach(icon => {
+            icon.addEventListener('click', () => {
+              const href = icon.getAttribute('href');
+              if (href) {
+                window.location.href = href;
+              }
+            });
+          });
+
+        </script>
+
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- header section end -->
+
+  <!-- home section start -->
+
+  <div class="home">
+    <div class="container">
+      <div class="home-wrapper">
+        <!-- home center start here -->
+
+        <div class="home-left">
+          <div class="home-center-wrapper">
+            <div class="series">
+              <h3 class="mini-heading1">Latest Series</h3>
+
+              <div class="series-container" style="justify-content: center; gap:20px;">
+                <div class="series-box">
+                  <div class="pic">
+                    <img src="./images/sinv-980x450.jpg" alt="" />
+                  </div>
+
+                  <div class="title">Secret Invasion</div>
+
+                  <div class="desc">
+                    The show follows Nick Fury and Talos as they uncover a conspiracy by a group of
+                    shapeshifting Skrulls who plan to invade
+                    Earth. Set in the present-day MCU, Fury teams up with allies like Everett Ross,
+                    Maria Hill, and Talos, who has
+                    established a life on Earth.
+                  </div>
+                </div>
+
+                <div class="series-box">
+                  <div class="pic">
+                    <img src="./images/cwsht4645-720x340.jpg" alt="" />
+                  </div>
+
+                  <div class="title">Gotham Knights</div>
+
+                  <div class="desc">
+                    Bruce Wayne is murdered and his adopted son forges an
+                    alliance with the children of Batman’s enemies. As the
+                    city becomes more dangerous, these mismatched fugitives
+                    will become its next generation of saviors, known as the
+                    Gotham Knights.
+                  </div>
+                </div>
+
+                <div class="series-box">
+                  <div class="pic">
+                    <img src="./images/superlois-720x340.jpg" alt="" />
+                  </div>
+
+                  <div class="title">Superman and Lois</div>
+
+                  <div class="desc">
+                    Follow the world’s most famous super hero and comic books’
+                    most famous journalist as they deal with all the stress,
+                    pressures, and complexities that come with being working
+                    parents in today’s society.
+                  </div>
+                </div>
+
+                <div class="series-box">
+                  <div class="pic">
+                    <img src="./images/pltnc-720x340.jpg" alt="" />
+                  </div>
+
+                  <div class="title">Platonic</div>
+
+                  <div class="desc">
+                    Former childhood best friends reconnect as adults and try
+                    to get past the rift that led to their falling out.
+                  </div>
+                </div>
+
+                <div class="series-box">
+                  <div class="pic">
+                    <img src="./images/hjck-720x340.jpg" alt="" />
+                  </div>
+
+                  <div class="title">Hijack</div>
+
+                  <div class="desc">
+                    It stars Idris Elba and premiered on June 28, 2023, on Apple TV+. The show
+                    combines elements from Harrison Ford's "Air
+                    Force One" and Kiefer Sutherland's "24." The series revolves around a hijacked
+                    plane's journey as it flies towards
+                    London during a seven-hour flight, while authorities on the ground race against
+                    time to find answers.
+                  </div>
+                </div>
+
+
+
+
+
+                <div class="series-box">
+                  <div class="pic">
+                    <img src="./images/hlrpds-720x340.jpg" alt="" />
+                  </div>
+
+                  <div class="title">Hell’s Paradise: Jigokuraku</div>
+
+                  <div class="desc">
+                    A squad of prisoners and their guards are sent to investigate a mysterious
+                    island. They get stranded there and must rely
+                    on each other to survive the island’s mysterious and monstrous residents.
+                  </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+                <div class="series-box">
+                  <div class="pic">
+                    <img src="./images/evlddrs-720x340.jpg" alt="" />
+                  </div>
+
+                  <div class="title">Evil Dead Rise (2023)</div>
+
+                  <div class="desc">
+                    A twisted tale of two estranged sisters whose reunion is cut short by the rise
+                    of flesh-possessing demons, thrusting
+                    them into a primal battle for survival as they face the most nightmarish version
+                    of family imaginable.
+                  </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="series-box">
+                  <div class="pic">
+                    <img src="./images/frm-720x340.jpg" alt="" />
+                  </div>
+
+                  <div class="title">From</div>
+
+                  <div class="desc">
+                    From unravels the mystery of a nightmarish town in middle
+                    America that traps all those who enter. As the unwilling
+                    residents fight to keep a sense of normalcy and search for
+                    a way out, they must also survive the threats of the
+                    surrounding forest.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+        <!-- home right starts here -->
+
+        <style>
+          @media(max-width:1110px) {
+            .event-friend {
+              height: 2846px !important;
+            }
+          }
+        </style>
+
+
+
+        <div class="home-right">
+          <div class="home-right-wrapper">
+            <div class="event-friend" style="height:1517px; overflow-y:scroll;">
+              <h3 class="mini-heading">Upcoming Series</h3>
+
+
+
+
+
+              <div class="series">
+
+
+
+
+
+
+
+
+
+
+
+                <div class="series-box2">
+                  <div class="pic2">
+                    <img src="./images/5b65aed7-fa87-4404-8351-43540465617a.webp" alt="" />
+                  </div>
+
+                  <div class="title">Ahsoka, Disney+ (August 31)</div>
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+                <div class="series-box2">
+                  <div class="pic2">
+                    <img src="./images/the-witcher-season-3-henry-cavill-netflix.webp" alt="" />
+                  </div>
+
+                  <div class="title">The Witcher Season 3 (June 28)</div>
+
+
+                </div>
+
+
+
+
+
+
+                <div class="series-box2">
+                  <div class="pic2">
+                    <img src="./images/loki-season-2-tom-hiddleston-social-feature.webp" alt="" />
+                  </div>
+
+                  <div class="title">Loki Season 2, Disney+ (October 6)</div>
+
+
+                </div>
+
+
+
+
+                <div class="series-box2">
+                  <div class="pic2">
+                    <img src="./images/Maya-lopez-echo-slytherin.webp" alt="" />
+                  </div>
+
+                  <div class="title">Echo, Disney+ (November 29) </div>
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="series-box2">
+                  <div class="pic2">
+                    <img src="./images/what-we-do-in-the-shadows-no-border.webp" alt="" />
+                  </div>
+
+                  <div class="title">What We Do in the Shadows Season 5, FX (July 13)
+                  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+              </div>
+              <!-- home right wrapper end -->
+            </div>
+            <!-- home right end -->
+          </div>
+        </div>
+      </div>
+
+      <!-- home section end -->
+
+
+
+
+
+      <div class="footer">
+        <b style="font-size: 24px; margin-right:4px; font-weight:500">&copy;</b> 2023 Alex | All rights reserved.
+      </div>
+
+</body>
+
+</html>

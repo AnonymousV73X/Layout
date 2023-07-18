@@ -1,0 +1,202 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Layouts</title>
+
+  <!-- style css link -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- fontawesome css link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <!-- header section start -->
+
+  <div class="headerX">
+
+    <div class="header-container">
+
+      <div class="logo">
+
+        <h2>Smart Ent&trade;</h2>
+
+
+      </div>
+
+      <div class="nav-links">
+
+        <i href="index.html" class=" fa-solid fa-home">
+          <a href="index.html">Home</a>
+        </i>
+
+        <i href="about.html" class="fa-solid fa-info-circle">
+          <a href="about.html">About</a>
+        </i>
+
+        <i href="#" class="perma fa-solid fa-cogs">
+          <a href="#">Services</a>
+        </i>
+
+        <i href="contacts.html" class=" fa-solid fa-envelope">
+          <a href="contacts.html">Contacts</a>
+        </i>
+
+        <script>
+          const icons = document.querySelectorAll('i[href]');
+
+          icons.forEach(icon => {
+            icon.addEventListener('click', () => {
+              const href = icon.getAttribute('href');
+              if (href) {
+                window.location.href = href;
+              }
+            });
+          });
+
+        </script>
+
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- header section end -->
+
+
+
+
+
+  <!-- home section start -->
+
+  <div class="home">
+    <div class="container">
+      <div class="home-wrapper">
+        <!-- home center start here -->
+
+        <div class="home-left" style="width: 100%;">
+          <div class="home-center-wrapper">
+            <div class="series">
+              <h3 class="mini-heading1">Our Services</h3>
+
+              <div class="series-container" style="justify-content: center; gap:20px;">
+                <div class="series-box">
+                  <div class="pic">
+                    <img src="./images/ads.jpg" alt="" />
+                  </div>
+
+                  <div class="title">AD-Free Streaming</div>
+
+                  <div class="desc">We
+                    provide an ad-free streaming experience for subscribers who pay for a premium subscription tier.
+                  </div>
+                </div>
+
+                <div class="series-box">
+                  <div class="pic">
+                    <img src="./images/demand.jpg" alt="" />
+                  </div>
+                
+                  <div class="title">On-Demand Streaming</div>
+                
+                  <div class="desc">Providing a vast library of movies, TV shows, documentaries, and original content for subscribers to
+                    stream at their convenience.</div>
+                </div>
+                
+                <div class="series-box">
+                  <div class="pic">
+                    <img src="./images/original.jpg" alt="" />
+                  </div>
+                
+                  <div class="title">Original Content Production</div>
+                
+                  <div class="desc">Creating and producing exclusive TV shows, films, and documentaries that are only available on the
+                    streaming platform.</div>
+                </div>
+                
+                <div class="series-box">
+                  <div class="pic">
+                    <img src="./images/reco.jpg" alt="" />
+                  </div>
+                
+                  <div class="title">Personalized Recommendations</div>
+                
+                  <div class="desc">Offering customized content suggestions based on users' viewing history, preferences, and ratings.
+                  </div>
+                </div>
+                
+                <div class="series-box">
+                  <div class="pic">
+                    <img src="./images/mul.jpg" alt="" />
+                  </div>
+                
+                  <div class="title">Multiple Device Access</div>
+                
+                  <div class="desc">Allowing subscribers to access the streaming service on various devices such as smartphones,
+                    tablets, smart TVs, gaming consoles, and computers.</div>
+                </div>
+                
+                
+                
+                <div class="series-box">
+                  <div class="pic">
+                    <img src="./images/off.jpg" alt="" />
+                  </div>
+                
+                  <div class="title">Offline Downloads</div>
+                
+                  <div class="desc">Allowing users to download content to their devices and watch it offline without an internet
+                    connection.</div>
+                </div>
+                
+
+
+
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+       
+            <!-- home right end -->
+          </div>
+        </div>
+
+
+
+
+        
+      </div>
+
+      <!-- home section end -->
+
+
+<div class="co" style="display: flex; width:100%; justify-content:center; align-items:center; padding-left:0.5%; padding-right:0.5%;">
+  <div class="footer">
+    <b style="font-size: 24px; margin-right:4px; font-weight:500; ">&copy;</b> 2023 Alex | All rights reserved.
+  </div>
+</div>
+
+
+      
+
+</body>
+
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Layouts</title>
+
+  <!-- style css link -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- fontawesome css link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <!-- header section start -->
+
+  <div class="headerX">
+
+    <div class="header-container">
+
+      <div class="logo">
+
+        <h2>Smart Ent&trade;</h2>
+
+
+      </div>
+
+      <div class="nav-links">
+
+        <i href="index.html" class=" fa-solid fa-home">
+          <a href="index.html">Home</a>
+        </i>
+
+        <i href="#" class="perma fa-solid fa-info-circle">
+          <a href="#">About</a>
+        </i>
+
+        <i href="services.html" class=" fa-solid fa-cogs">
+          <a href="services.html">Services</a>
+        </i>
+
+        <i href="contacts.html" class=" fa-solid fa-envelope">
+          <a href="contacts.html">Contacts</a>
+        </i>
+
+        <script>
+          const icons = document.querySelectorAll('i[href]');
+
+          icons.forEach(icon => {
+            icon.addEventListener('click', () => {
+              const href = icon.getAttribute('href');
+              if (href) {
+                window.location.href = href;
+              }
+            });
+          });
+
+        </script>
+
+
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- header section end -->
+
+  <!-- home section start -->
+
+  <div class="home">
+    <div class="container">
+      <div class="home-wrapper">
+        <!-- home center start here -->
+
+        <div class="home-left" style="width: 100%;">
+          <div class="home-center-wrapper">
+            <div class="series">
+
+              <div class="di" style="display: flex; justify-content:center;">
+                <h3 class="mini-heading1" style="text-align: center; font-size:24px;">About Us</h3>
+              </div>
+
+
+              <div class="series-container" style="justify-content: center; gap:20px;">
+                <div class="series-box" style="width: 500px !important; padding:20px">
+                  <div class="pic">
+                    <img src="./images/about-us.jpg" alt="" />
+                  </div>
+
+                  <div class="title" style="font-size:18px">Smart Entertainment</div>
+
+                  <div class="desc" style="font-weight: 400; font-size:15px">
+                    Welcome to <strong>Smart Entertainment</strong>, where <em>creativity</em> and <em>innovation</em>
+                    converge to redefine
+                    the world of entertainment.
+
+                    <br> <br>Since our inception in <strong>2003</strong>, we have been dedicated to providing
+                    unforgettable experiences to our global audience.
+
+                    <br> <br>
+                    We pride ourselves on curating the finest selection of movies, TV shows, and original content,
+                    meticulously handpicked
+                    to captivate and inspire. Our passion for storytelling knows no bounds as we collaborate with the
+                    brightest minds in the
+                    industry to produce groundbreaking productions that push boundaries and challenge conventions.
+
+                    <br> <br>
+                    At Smart Entertainment, we believe in the power of <strong>personalization</strong>. Our
+                    state-of-the-art recommendation
+                    algorithms learn your unique preferences, ensuring that every click takes you on a journey
+                    tailor-made for your tastes.
+                    With <strong>multiple device access</strong> and <strong>offline downloads</strong>, we empower you
+                    to enjoy your
+                    favorite content anytime, anywhere.
+
+                    <br> <br>
+                    As pioneers in the streaming industry, we are committed to an <strong>ad-free experience</strong>
+                    for our premium
+                    subscribers, allowing you to immerse yourself in uninterrupted entertainment. Our commitment to
+                    quality extends to our
+                    <strong>user-friendly interface</strong>, <strong>multiple user profiles</strong>, and robust
+                    <strong>parental
+                      controls</strong>, ensuring that every member of your family can explore our vast library with
+                    peace of mind.
+
+                    <br> <br>
+                    We don't just provide entertainment; we foster a sense of <strong>community</strong>. Our integrated
+                    social features
+                    enable you to connect with fellow enthusiasts, share recommendations, and engage in lively
+                    discussions. Together, we
+                    create a vibrant ecosystem where the magic of entertainment transcends screens.
+
+                    <br> <br>
+
+                    With Smart Entertainment, you are not just a viewer; you are an <strong>explorer</strong>, a
+                    <strong>dreamer</strong>,
+                    and a connoisseur of extraordinary stories. Join us as we continue to shape the future of
+                    entertainment, one
+                    unforgettable moment at a time.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+      <!-- home right end -->
+    </div>
+  </div>
+
+
+
+
+
+  </div>
+
+  <!-- home section end -->
+
+
+  <div class="co"
+    style="display: flex; width:100%; justify-content:center; align-items:center; padding-left:0.5%; padding-right:0.5%;">
+    <div class="footer">
+      <b style="font-size: 24px; margin-right:4px; font-weight:500; ">&copy;</b> 2023 Alex | All rights reserved.
+    </div>
+  </div>
+
+
+</body>
+
+</html>
